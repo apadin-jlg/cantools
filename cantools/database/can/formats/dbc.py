@@ -1482,8 +1482,10 @@ def _load_signals(tokens,
                    is_multiplexer=get_is_multiplexer(signal),
                    multiplexer_ids=get_multiplexer_ids(signal[1],
                                                        multiplexer_signal),
-                   multiplexer_signal=get_multiplexer_signal(signal[1],
-                                                             multiplexer_signal),
+                   multiplexer_signal=get_signal_name(frame_id_dbc,
+                                                      get_multiplexer_signal(
+                                                          signal[1],
+                                                          multiplexer_signal)),
                    is_float=get_is_float(frame_id_dbc, signal[1][0])))
 
     return signals
