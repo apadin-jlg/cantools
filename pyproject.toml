@@ -2,6 +2,7 @@
 name = "cantools"
 readme = "README.md"
 license = { file = "LICENSE" }
+# Set version temporarily to fix new issues appearing with not having a version
 version = "1"
 classifiers = ["Programming Language :: Python :: 3 :: Only"]
 requires-python = ">=3.13,<3.15"
