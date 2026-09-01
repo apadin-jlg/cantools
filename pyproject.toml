@@ -8,6 +8,10 @@ requires-python = ">=3.13,<3.15"
 
 dependencies = [
     "bitstruct>=8.16.1",
+    "python-can>=4.6.0",
+    "textparser>=0.26",
+    "argparse_addons",
+    "crccheck",
 ]
 
 [build-system]
