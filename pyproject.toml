@@ -2,9 +2,8 @@
 name = "cantools"
 readme = "README.md"
 license = { file = "LICENSE" }
-version = "1"
 classifiers = ["Programming Language :: Python :: 3 :: Only"]
-requires-python = ">=3.13,<3.15"
+requires-python = "~=3.13"
 
 [build-system]
 requires = ["setuptools>=42", "wheel"]
