@@ -6,6 +6,10 @@ version = "1"
 classifiers = ["Programming Language :: Python :: 3 :: Only"]
 requires-python = ">=3.13,<3.15"
 
+dependencies = [
+    "bitstruct>=8.16.1",
+]
+
 [build-system]
 requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
