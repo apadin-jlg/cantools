@@ -12,6 +12,7 @@ dependencies = [
     "textparser>=0.26",
     "argparse_addons",
     "crccheck",
+    "diskcache"
 ]
 
 [build-system]
